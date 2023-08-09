@@ -1,0 +1,1155 @@
+../../../../
+|-- build.sbt
+|-- doc
+|   |-- html.cfg
+|   |-- Makefile
+|   |-- style
+|   |   |-- scala.tex
+|   |   `-- talk.tex
+|   `-- tutorial
+|       |-- figs
+|       |   |-- condupdates.pdf
+|       |   |-- cpu.png
+|       |   `-- DUT.pdf
+|       |-- retreat-talk.tex
+|       |-- tutorial-2.tex
+|       `-- tutorial.tex
+|-- LICENSE.txt
+|-- project
+|   |-- build.properties
+|   `-- target
+|       |-- config-classes
+|       |   |-- $004d588e4cccbff830ed$.class
+|       |   |-- $004d588e4cccbff830ed.cache
+|       |   |-- $004d588e4cccbff830ed.class
+|       |   |-- $4135f005a01ebc54756f$.class
+|       |   |-- $4135f005a01ebc54756f.cache
+|       |   |-- $4135f005a01ebc54756f.class
+|       |   |-- $68971c1d0964ffab7301$.class
+|       |   |-- $68971c1d0964ffab7301.cache
+|       |   |-- $68971c1d0964ffab7301.class
+|       |   |-- $8c871d4808ea2a34a7cf$.class
+|       |   |-- $8c871d4808ea2a34a7cf.cache
+|       |   |-- $8c871d4808ea2a34a7cf.class
+|       |   |-- $972a527f428d89fd403c$.class
+|       |   |-- $972a527f428d89fd403c.cache
+|       |   |-- $972a527f428d89fd403c.class
+|       |   |-- $9c48b56e675b08959ff9$.class
+|       |   |-- $9c48b56e675b08959ff9.cache
+|       |   |-- $9c48b56e675b08959ff9.class
+|       |   |-- $a2a6184a2e22420425bc$.class
+|       |   |-- $a2a6184a2e22420425bc.cache
+|       |   |-- $a2a6184a2e22420425bc.class
+|       |   |-- $a979a45a59111d50a28a$.class
+|       |   |-- $a979a45a59111d50a28a.cache
+|       |   |-- $a979a45a59111d50a28a.class
+|       |   |-- $ae8acc1bc43966ce3ee2$.class
+|       |   |-- $ae8acc1bc43966ce3ee2.cache
+|       |   |-- $ae8acc1bc43966ce3ee2.class
+|       |   |-- $b64c49c73516bb10d57a$.class
+|       |   |-- $b64c49c73516bb10d57a.cache
+|       |   |-- $b64c49c73516bb10d57a.class
+|       |   |-- $c64184036d13382e82c2$.class
+|       |   |-- $c64184036d13382e82c2.cache
+|       |   |-- $c64184036d13382e82c2.class
+|       |   |-- $ca9ef3f8fe3ceed85847$.class
+|       |   |-- $ca9ef3f8fe3ceed85847.cache
+|       |   |-- $ca9ef3f8fe3ceed85847.class
+|       |   |-- $cd059aeca4ab1fb93bb8$.class
+|       |   |-- $cd059aeca4ab1fb93bb8.cache
+|       |   |-- $cd059aeca4ab1fb93bb8.class
+|       |   |-- $e8d3fc7aa569d954a4c1$.class
+|       |   |-- $e8d3fc7aa569d954a4c1.cache
+|       |   `-- $e8d3fc7aa569d954a4c1.class
+|       |-- scala-2.12
+|       |   `-- sbt-1.0
+|       |       `-- update
+|       |           `-- update_cache_2.12
+|       |               |-- inputs
+|       |               `-- output
+|       `-- streams
+|           |-- compile
+|           |   |-- compile
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- compileIncremental
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           |-- export
+|           |   |           `-- out
+|           |   |-- compileIncSetup
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |-- compileOutputs
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |-- copyResources
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           |-- copy-resources
+|           |   |           `-- out
+|           |   |-- dependencyClasspath
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   |-- exportedProducts
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   |-- externalDependencyClasspath
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   |-- _global
+|           |   |   `-- _global
+|           |   |       |-- compileBinaryFileInputs
+|           |   |       |   `-- previous
+|           |   |       |-- compileOutputs
+|           |   |       |   `-- previous
+|           |   |       |-- compileSourceFileInputs
+|           |   |       |   `-- previous
+|           |   |       |-- dependencyClasspathFiles
+|           |   |       |   `-- previous
+|           |   |       |-- discoveredMainClasses
+|           |   |       |   `-- data
+|           |   |       `-- managedSourcePaths
+|           |   |           `-- previous
+|           |   |-- internalDependencyClasspath
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   |-- managedClasspath
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   |-- unmanagedClasspath
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- export
+|           |   `-- unmanagedJars
+|           |       `-- _global
+|           |           `-- streams
+|           |               `-- export
+|           |-- _global
+|           |   |-- csrConfiguration
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- csrProject
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- dependencyPositions
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- update_cache_2.12
+|           |   |               |-- input_dsp
+|           |   |               `-- output_dsp
+|           |   |-- _global
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- ivyConfiguration
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- ivySbt
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- moduleSettings
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- projectDescriptors
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   |-- scalaCompilerBridgeScope
+|           |   |   `-- _global
+|           |   |       `-- streams
+|           |   |           `-- out
+|           |   `-- update
+|           |       `-- _global
+|           |           `-- streams
+|           |               `-- out
+|           `-- runtime
+|               |-- dependencyClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- exportedProducts
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- externalDependencyClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- fullClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- internalDependencyClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- managedClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               |-- unmanagedClasspath
+|               |   `-- _global
+|               |       `-- streams
+|               |           `-- export
+|               `-- unmanagedJars
+|                   `-- _global
+|                       `-- streams
+|                           `-- export
+|-- README.md
+|-- run-examples.sh
+|-- run-problem.sh
+|-- run-solution.sh
+|-- src
+|   |-- main
+|   |   `-- scala
+|   |       |-- examples
+|   |       |   |-- Adder4.scala
+|   |       |   |-- Adder.scala
+|   |       |   |-- ByteSelector.scala
+|   |       |   |-- Combinational.scala
+|   |       |   |-- Darken.scala
+|   |       |   |-- EnableShiftRegister.scala
+|   |       |   |-- FullAdder.scala
+|   |       |   |-- Functionality.scala
+|   |       |   |-- GCD.scala
+|   |       |   |-- HiLoMultiplier.scala
+|   |       |   |-- Life.scala
+|   |       |   |-- LogShifter.scala
+|   |       |   |-- Parity.scala
+|   |       |   |-- ResetShiftRegister.scala
+|   |       |   |-- Risc.scala
+|   |       |   |-- Router.scala
+|   |       |   |-- ShiftRegister.scala
+|   |       |   |-- SimpleALU.scala
+|   |       |   |-- Stack.scala
+|   |       |   |-- Tbl.scala
+|   |       |   `-- VecSearch.scala
+|   |       |-- hello
+|   |       |   `-- Hello.scala
+|   |       |-- problems
+|   |       |   |-- Accumulator.scala
+|   |       |   |-- Adder.scala
+|   |       |   |-- Counter.scala
+|   |       |   |-- DynamicMemorySearch.scala
+|   |       |   |-- LFSR16.scala
+|   |       |   |-- Max2.scala
+|   |       |   |-- MaxN.scala
+|   |       |   |-- Memo.scala
+|   |       |   |-- Mul.scala
+|   |       |   |-- Mux4.scala
+|   |       |   |-- RealGCD.scala
+|   |       |   |-- SingleEvenFilter.scala
+|   |       |   |-- tree.out
+|   |       |   |-- VecShiftRegisterParam.scala
+|   |       |   |-- VecShiftRegister.scala
+|   |       |   |-- VecShiftRegisterSimple.scala
+|   |       |   |-- VendingMachine.scala
+|   |       |   `-- VendingMachineSwitch.scala
+|   |       `-- solutions
+|   |           |-- Accumulator.scala
+|   |           |-- Adder.scala
+|   |           |-- Counter.scala
+|   |           |-- DynamicMemorySearch.scala
+|   |           |-- LFSR16.scala
+|   |           |-- Max2.scala
+|   |           |-- MaxN.scala
+|   |           |-- Memo.scala
+|   |           |-- Mul.scala
+|   |           |-- Mux4.scala
+|   |           |-- RealGCD.scala
+|   |           |-- SingleEvenFilter.scala
+|   |           |-- VecShiftRegisterParam.scala
+|   |           |-- VecShiftRegister.scala
+|   |           |-- VecShiftRegisterSimple.scala
+|   |           |-- VendingMachine.scala
+|   |           `-- VendingMachineSwitch.scala
+|   |-- project
+|   |   `-- target
+|   |-- target
+|   |   |-- bg-jobs
+|   |   |-- global-logging
+|   |   |-- scala-2.12
+|   |   |   |-- src_2.12-0.1.0-SNAPSHOT.jar
+|   |   |   |-- src_2.12-0.1.0-SNAPSHOT-tests.jar
+|   |   |   |-- sync
+|   |   |   |   `-- copy-resource
+|   |   |   |-- test-sync
+|   |   |   |   `-- copy-resource
+|   |   |   `-- update
+|   |   |       `-- update_cache_2.12
+|   |   |           |-- inputs
+|   |   |           `-- output
+|   |   |-- streams
+|   |   |   |-- compile
+|   |   |   |   |-- bspReporter
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- compile
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- compileIncremental
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           |-- export
+|   |   |   |   |           `-- out
+|   |   |   |   |-- copyResources
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- dependencyClasspath
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- exportedProductJars
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- exportedProducts
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- externalDependencyClasspath
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- _global
+|   |   |   |   |   `-- _global
+|   |   |   |   |       |-- compileOutputs
+|   |   |   |   |       |   `-- previous
+|   |   |   |   |       `-- discoveredMainClasses
+|   |   |   |   |           `-- data
+|   |   |   |   |-- incOptions
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- internalDependencyClasspath
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           |-- export
+|   |   |   |   |           `-- out
+|   |   |   |   |-- mainClass
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- managedClasspath
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- packageBin
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           |-- inputs
+|   |   |   |   |           |-- out
+|   |   |   |   |           `-- output
+|   |   |   |   |-- scalacOptions
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- unmanagedClasspath
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           |-- export
+|   |   |   |   |           `-- out
+|   |   |   |   `-- unmanagedJars
+|   |   |   |       `-- _global
+|   |   |   |           `-- streams
+|   |   |   |               `-- export
+|   |   |   |-- _global
+|   |   |   |   |-- csrConfiguration
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- csrProject
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- dependencyPositions
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- update_cache_2.12
+|   |   |   |   |               |-- input_dsp
+|   |   |   |   |               `-- output_dsp
+|   |   |   |   |-- _global
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- ivyConfiguration
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- ivySbt
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- moduleSettings
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- projectDescriptors
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   |-- scalaCompilerBridgeScope
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- out
+|   |   |   |   `-- update
+|   |   |   |       `-- _global
+|   |   |   |           `-- streams
+|   |   |   |               `-- out
+|   |   |   |-- runtime
+|   |   |   |   |-- exportedProductJars
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   |-- exportedProducts
+|   |   |   |   |   `-- _global
+|   |   |   |   |       `-- streams
+|   |   |   |   |           `-- export
+|   |   |   |   `-- unmanagedJars
+|   |   |   |       `-- _global
+|   |   |   |           `-- streams
+|   |   |   |               `-- export
+|   |   |   `-- test
+|   |   |       |-- bspReporter
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- compile
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- compileIncremental
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           |-- export
+|   |   |       |           `-- out
+|   |   |       |-- copyResources
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- definedTests
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- dependencyClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- dependencyClasspathAsJars
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- exportedProductJars
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- exportedProducts
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- externalDependencyClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- fullClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- fullClasspathAsJars
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- _global
+|   |   |       |   `-- _global
+|   |   |       |       |-- compileOutputs
+|   |   |       |       |   `-- previous
+|   |   |       |       |-- definedTestNames
+|   |   |       |       |   `-- data
+|   |   |       |       |-- dependencyClasspathFiles
+|   |   |       |       |   `-- previous
+|   |   |       |       `-- discoveredMainClasses
+|   |   |       |           `-- data
+|   |   |       |-- incOptions
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- internalDependencyAsJars
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           |-- export
+|   |   |       |           `-- out
+|   |   |       |-- internalDependencyClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           |-- export
+|   |   |       |           `-- out
+|   |   |       |-- loadedTestFrameworks
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- mainClass
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- managedClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- export
+|   |   |       |-- packageBin
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           |-- inputs
+|   |   |       |           |-- out
+|   |   |       |           `-- output
+|   |   |       |-- runMain
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- scalacOptions
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           `-- out
+|   |   |       |-- unmanagedClasspath
+|   |   |       |   `-- _global
+|   |   |       |       `-- streams
+|   |   |       |           |-- export
+|   |   |       |           `-- out
+|   |   |       `-- unmanagedJars
+|   |   |           `-- _global
+|   |   |               `-- streams
+|   |   |                   `-- export
+|   |   `-- task-temp-directory
+|   `-- test
+|       |-- resources
+|       |   |-- in.im24
+|       |   `-- in.wav
+|       `-- scala
+|           |-- examples
+|           |   |-- Adder4Tests.scala
+|           |   |-- AdderTests.scala
+|           |   |-- ByteSelectorTests.scala
+|           |   |-- CombinationalTests.scala
+|           |   |-- DarkenTests.scala
+|           |   |-- EnableShiftRegisterTests.scala
+|           |   |-- FullAdderTests.scala
+|           |   |-- FunctionalityTests.scala
+|           |   |-- GCDTests.scala
+|           |   |-- HiLoMultiplierTests.scala
+|           |   |-- Image.scala
+|           |   |-- Launcher.scala
+|           |   |-- LifeTests.scala
+|           |   |-- LogShifterTests.scala
+|           |   |-- ParityTests.scala
+|           |   |-- ResetShiftRegisterTests.scala
+|           |   |-- RiscTests.scala
+|           |   |-- RouterTests.scala
+|           |   |-- ShiftRegisterTests.scala
+|           |   |-- SimpleALUTests.scala
+|           |   |-- Sound.scala
+|           |   |-- StackTests.scala
+|           |   |-- TblTests.scala
+|           |   `-- VecSearchTests.scala
+|           |-- problems
+|           |   |-- AccumulatorTest.scala
+|           |   |-- AdderTests.scala
+|           |   |-- CounterTest.scala
+|           |   |-- DynamicMemorySearchTests.scala
+|           |   |-- Launcher.scala
+|           |   |-- LFSR16Tests.scala
+|           |   |-- Max2Tests.scala
+|           |   |-- MaxNTests.scala
+|           |   |-- MemoTests.scala
+|           |   |-- MulTests.scala
+|           |   |-- Mux2Tests.scala
+|           |   |-- Mux4Tests.scala
+|           |   |-- RealGCDTests.scala
+|           |   |-- SingleEvenFilterTests.scala
+|           |   |-- VecShiftRegisterParamTests.scala
+|           |   |-- VecShiftRegisterSimpleTests.scala
+|           |   |-- VecShiftRegisterTests.scala
+|           |   |-- VendingMachineSwitchTests.scala
+|           |   `-- VendingMachineTests.scala
+|           |-- solutions
+|           |   |-- AccumulatorTests.scala
+|           |   |-- AdderTests.scala
+|           |   |-- CounterTest.scala
+|           |   |-- DynamicMemorySearchTests.scala
+|           |   |-- Launcher.scala
+|           |   |-- LFSR16Tests.scala
+|           |   |-- Max2Tests.scala
+|           |   |-- MaxNTests.scala
+|           |   |-- MemoTests.scala
+|           |   |-- MulTests.scala
+|           |   |-- Mux2Tests.scala
+|           |   |-- Mux4Tests.scala
+|           |   |-- RealGCDTests.scala
+|           |   |-- SingleEvenFilterTests.scala
+|           |   |-- VecShiftRegisterParamTests.scala
+|           |   |-- VecShiftRegisterSimpleTests.scala
+|           |   |-- VecShiftRegisterTests.scala
+|           |   |-- VendingMachineSwitchTests.scala
+|           |   `-- VendingMachineTest.scala
+|           `-- utils
+|               `-- TutorialRunner.scala
+|-- target
+|   |-- scala-2.12
+|   |   |-- chisel-tutorial_2.12-3.3.0.jar
+|   |   |-- chisel-tutorial_2.12-3.3.0-tests.jar
+|   |   |-- classes
+|   |   |   |-- examples
+|   |   |   |   |-- Adder$$anon$1.class
+|   |   |   |   |-- Adder4$$anon$1.class
+|   |   |   |   |-- Adder4.class
+|   |   |   |   |-- Adder.class
+|   |   |   |   |-- BasicALU$$anon$1.class
+|   |   |   |   |-- BasicALU.class
+|   |   |   |   |-- ByteSelector$$anon$1.class
+|   |   |   |   |-- ByteSelector.class
+|   |   |   |   |-- Cell$$anon$1.class
+|   |   |   |   |-- Cell.class
+|   |   |   |   |-- Combinational$$anon$1.class
+|   |   |   |   |-- Combinational.class
+|   |   |   |   |-- Darken$$anon$1.class
+|   |   |   |   |-- Darken.class
+|   |   |   |   |-- EnableShiftRegister$$anon$1.class
+|   |   |   |   |-- EnableShiftRegister.class
+|   |   |   |   |-- FullAdder$$anon$1.class
+|   |   |   |   |-- FullAdder.class
+|   |   |   |   |-- Functionality$$anon$1.class
+|   |   |   |   |-- Functionality.class
+|   |   |   |   |-- GCD$$anon$1.class
+|   |   |   |   |-- GCD.class
+|   |   |   |   |-- HiLoMultiplier$$anon$1.class
+|   |   |   |   |-- HiLoMultiplier.class
+|   |   |   |   |-- Life$$anon$2.class
+|   |   |   |   |-- Life.class
+|   |   |   |   |-- LogShifter$$anon$1.class
+|   |   |   |   |-- LogShifter.class
+|   |   |   |   |-- Packet.class
+|   |   |   |   |-- Parity$$anon$1.class
+|   |   |   |   |-- Parity.class
+|   |   |   |   |-- ReadCmd.class
+|   |   |   |   |-- ResetShiftRegister$$anon$1.class
+|   |   |   |   |-- ResetShiftRegister.class
+|   |   |   |   |-- Risc$$anon$1.class
+|   |   |   |   |-- Risc.class
+|   |   |   |   |-- Router$.class
+|   |   |   |   |-- Router.class
+|   |   |   |   |-- RouterIO.class
+|   |   |   |   |-- ShiftRegister$$anon$1.class
+|   |   |   |   |-- ShiftRegister.class
+|   |   |   |   |-- SimpleALU$$anon$2.class
+|   |   |   |   |-- SimpleALU.class
+|   |   |   |   |-- Stack$$anon$1.class
+|   |   |   |   |-- Stack.class
+|   |   |   |   |-- Tbl$$anon$1.class
+|   |   |   |   |-- Tbl.class
+|   |   |   |   |-- VecSearch$$anon$1.class
+|   |   |   |   |-- VecSearch.class
+|   |   |   |   |-- VecSearchTest$.class
+|   |   |   |   |-- VecSearchTest.class
+|   |   |   |   `-- WriteCmd.class
+|   |   |   |-- hello
+|   |   |   |   |-- Hello$$anon$1.class
+|   |   |   |   |-- Hello$.class
+|   |   |   |   |-- Hello.class
+|   |   |   |   `-- HelloTests.class
+|   |   |   |-- problems
+|   |   |   |   |-- Accumulator$$anon$1.class
+|   |   |   |   |-- Accumulator.class
+|   |   |   |   |-- Adder$$anon$1.class
+|   |   |   |   |-- Adder.class
+|   |   |   |   |-- Counter$$anon$1.class
+|   |   |   |   |-- Counter$.class
+|   |   |   |   |-- Counter.class
+|   |   |   |   |-- DynamicMemorySearch$$anon$1.class
+|   |   |   |   |-- DynamicMemorySearch.class
+|   |   |   |   |-- EvenFilter$.class
+|   |   |   |   |-- EvenFilter.class
+|   |   |   |   |-- Filter$$anon$1.class
+|   |   |   |   |-- Filter.class
+|   |   |   |   |-- LFSR16$$anon$1.class
+|   |   |   |   |-- LFSR16.class
+|   |   |   |   |-- Max2$$anon$1.class
+|   |   |   |   |-- Max2.class
+|   |   |   |   |-- MaxN$$anon$1.class
+|   |   |   |   |-- MaxN.class
+|   |   |   |   |-- Memo$$anon$1.class
+|   |   |   |   |-- Memo.class
+|   |   |   |   |-- Mul$$anon$1.class
+|   |   |   |   |-- Mul.class
+|   |   |   |   |-- Mux2$$anon$1.class
+|   |   |   |   |-- Mux2.class
+|   |   |   |   |-- Mux4$$anon$2.class
+|   |   |   |   |-- Mux4.class
+|   |   |   |   |-- PredicateFilter.class
+|   |   |   |   |-- RealGCD$$anon$1.class
+|   |   |   |   |-- RealGCD.class
+|   |   |   |   |-- RealGCDInput.class
+|   |   |   |   |-- SingleEvenFilter.class
+|   |   |   |   |-- SingleFilter$.class
+|   |   |   |   |-- SingleFilter.class
+|   |   |   |   |-- VecShiftRegister$$anon$1.class
+|   |   |   |   |-- VecShiftRegister.class
+|   |   |   |   |-- VecShiftRegisterParam$$anon$1.class
+|   |   |   |   |-- VecShiftRegisterParam.class
+|   |   |   |   |-- VecShiftRegisterSimple$$anon$1.class
+|   |   |   |   |-- VecShiftRegisterSimple.class
+|   |   |   |   |-- VendingMachine$$anon$1.class
+|   |   |   |   |-- VendingMachine.class
+|   |   |   |   |-- VendingMachineSwitch$$anon$1.class
+|   |   |   |   `-- VendingMachineSwitch.class
+|   |   |   `-- solutions
+|   |   |       |-- Accumulator$$anon$1.class
+|   |   |       |-- Accumulator.class
+|   |   |       |-- Adder$$anon$1.class
+|   |   |       |-- Adder.class
+|   |   |       |-- Counter$$anon$1.class
+|   |   |       |-- Counter$.class
+|   |   |       |-- Counter.class
+|   |   |       |-- DynamicMemorySearch$$anon$1.class
+|   |   |       |-- DynamicMemorySearch.class
+|   |   |       |-- EvenFilter$.class
+|   |   |       |-- EvenFilter.class
+|   |   |       |-- Filter$$anon$1.class
+|   |   |       |-- Filter.class
+|   |   |       |-- LFSR16$$anon$1.class
+|   |   |       |-- LFSR16.class
+|   |   |       |-- Max2$$anon$1.class
+|   |   |       |-- Max2.class
+|   |   |       |-- MaxN$$anon$1.class
+|   |   |       |-- MaxN.class
+|   |   |       |-- Memo$$anon$1.class
+|   |   |       |-- Memo.class
+|   |   |       |-- Mul$$anon$1.class
+|   |   |       |-- Mul.class
+|   |   |       |-- Mux2$$anon$1.class
+|   |   |       |-- Mux2.class
+|   |   |       |-- Mux4$$anon$2.class
+|   |   |       |-- Mux4.class
+|   |   |       |-- PredicateFilter.class
+|   |   |       |-- RealGCD$$anon$1.class
+|   |   |       |-- RealGCD.class
+|   |   |       |-- RealGCDInput.class
+|   |   |       |-- SingleEvenFilter.class
+|   |   |       |-- SingleFilter$.class
+|   |   |       |-- SingleFilter.class
+|   |   |       |-- VecShiftRegister$$anon$1.class
+|   |   |       |-- VecShiftRegister.class
+|   |   |       |-- VecShiftRegisterParam$$anon$1.class
+|   |   |       |-- VecShiftRegisterParam.class
+|   |   |       |-- VecShiftRegisterSimple$$anon$1.class
+|   |   |       |-- VecShiftRegisterSimple.class
+|   |   |       |-- VendingMachine$$anon$1.class
+|   |   |       |-- VendingMachine.class
+|   |   |       |-- VendingMachineSwitch$$anon$1.class
+|   |   |       `-- VendingMachineSwitch.class
+|   |   |-- test-classes
+|   |   |   |-- examples
+|   |   |   |   |-- Adder4Tester.class
+|   |   |   |   |-- Adder4Tests.class
+|   |   |   |   |-- AdderTester.class
+|   |   |   |   |-- AdderTests.class
+|   |   |   |   |-- ByteSelectorTester.class
+|   |   |   |   |-- ByteSelectorTests.class
+|   |   |   |   |-- CombinationalTester.class
+|   |   |   |   |-- CombinationalTests.class
+|   |   |   |   |-- DarkenTester.class
+|   |   |   |   |-- DarkenTests.class
+|   |   |   |   |-- EnableShiftRegisterTester.class
+|   |   |   |   |-- EnableShiftRegisterTests.class
+|   |   |   |   |-- FullAdderTester.class
+|   |   |   |   |-- FullAdderTests.class
+|   |   |   |   |-- FunctionalityTester.class
+|   |   |   |   |-- FunctionalityTests.class
+|   |   |   |   |-- GCDTester.class
+|   |   |   |   |-- GCDTests.class
+|   |   |   |   |-- HiLoMultiplierTester.class
+|   |   |   |   |-- HiLoMultiplierTests.class
+|   |   |   |   |-- Image$.class
+|   |   |   |   |-- Image.class
+|   |   |   |   |-- Launcher$.class
+|   |   |   |   |-- Launcher.class
+|   |   |   |   |-- LifeTester.class
+|   |   |   |   |-- LifeTests.class
+|   |   |   |   |-- LogShifterTests.class
+|   |   |   |   |-- ParityTester.class
+|   |   |   |   |-- ParityTests.class
+|   |   |   |   |-- ResetShiftRegisterTester.class
+|   |   |   |   |-- ResetShiftRegisterTests.class
+|   |   |   |   |-- RiscTester.class
+|   |   |   |   |-- RiscTests.class
+|   |   |   |   |-- RouterTests.class
+|   |   |   |   |-- RouterUnitTester.class
+|   |   |   |   |-- ShiftRegisterTester.class
+|   |   |   |   |-- ShiftRegisterTests.class
+|   |   |   |   |-- SimpleALUTester.class
+|   |   |   |   |-- SimpleALUTests.class
+|   |   |   |   |-- StackTester.class
+|   |   |   |   |-- StackTests.class
+|   |   |   |   |-- StackTestsOrig.class
+|   |   |   |   |-- TblTester.class
+|   |   |   |   |-- TblTests.class
+|   |   |   |   |-- VecSearchTester.class
+|   |   |   |   |-- VecSearchTests.class
+|   |   |   |   |-- WavIn$.class
+|   |   |   |   |-- WavIn.class
+|   |   |   |   |-- WavOut$.class
+|   |   |   |   `-- WavOut.class
+|   |   |   |-- in.im24
+|   |   |   |-- in.wav
+|   |   |   |-- problems
+|   |   |   |   |-- AccumulatorTests.class
+|   |   |   |   |-- AdderTests.class
+|   |   |   |   |-- CounterTest.class
+|   |   |   |   |-- DynamicMemorySearchTests.class
+|   |   |   |   |-- Launcher$.class
+|   |   |   |   |-- Launcher.class
+|   |   |   |   |-- LFSR16Tests.class
+|   |   |   |   |-- Max2Tests.class
+|   |   |   |   |-- MaxNTests.class
+|   |   |   |   |-- MemoTests.class
+|   |   |   |   |-- MulTests.class
+|   |   |   |   |-- Mux2Tests.class
+|   |   |   |   |-- Mux4Tests.class
+|   |   |   |   |-- RealGCDTests.class
+|   |   |   |   |-- SingleEvenFilterTests.class
+|   |   |   |   |-- VecShiftRegisterParamTests.class
+|   |   |   |   |-- VecShiftRegisterSimpleTests.class
+|   |   |   |   |-- VecShiftRegisterTests.class
+|   |   |   |   |-- VendingMachineSwitchTests.class
+|   |   |   |   `-- VendingMachineTests.class
+|   |   |   |-- solutions
+|   |   |   |   |-- AccumulatorTester.class
+|   |   |   |   |-- AccumulatorTests.class
+|   |   |   |   |-- AdderTester.class
+|   |   |   |   |-- AdderTests.class
+|   |   |   |   |-- CounterTest.class
+|   |   |   |   |-- CounterTester.class
+|   |   |   |   |-- DynamicMemorySearchTests.class
+|   |   |   |   |-- Launcher$.class
+|   |   |   |   |-- Launcher.class
+|   |   |   |   |-- LFSR16Tests.class
+|   |   |   |   |-- Max2Tests.class
+|   |   |   |   |-- MaxNTests.class
+|   |   |   |   |-- MemoTests.class
+|   |   |   |   |-- MulTests.class
+|   |   |   |   |-- Mux2Tests.class
+|   |   |   |   |-- Mux4Tests.class
+|   |   |   |   |-- RealGCDTests.class
+|   |   |   |   |-- SingleEvenFilterTests.class
+|   |   |   |   |-- VecShiftRegisterParamTests.class
+|   |   |   |   |-- VecShiftRegisterSimpleTests.class
+|   |   |   |   |-- VecShiftRegisterTests.class
+|   |   |   |   |-- VendingMachineSwitchTests.class
+|   |   |   |   `-- VendingMachineTests.class
+|   |   |   `-- utils
+|   |   |       |-- OptionsCopy$$anon$1.class
+|   |   |       |-- OptionsCopy$.class
+|   |   |       |-- OptionsCopy.class
+|   |   |       |-- TutorialRunner$.class
+|   |   |       `-- TutorialRunner.class
+|   |   `-- update
+|   |       `-- update_cache_2.12
+|   |           |-- inputs
+|   |           `-- output
+|   `-- streams
+|       |-- compile
+|       |   |-- compile
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- compileIncremental
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           |-- export
+|       |   |           `-- out
+|       |   |-- compileIncSetup
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- inc_compile_2.12.zip
+|       |   |-- compileOutputs
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |-- copyResources
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           |-- copy-resources
+|       |   |           `-- out
+|       |   |-- dependencyClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- exportedProductJars
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- exportedProducts
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- externalDependencyClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- _global
+|       |   |   `-- _global
+|       |   |       |-- compileBinaryFileInputs
+|       |   |       |   `-- previous
+|       |   |       |-- compileOutputs
+|       |   |       |   `-- previous
+|       |   |       |-- compileSourceFileInputs
+|       |   |       |   `-- previous
+|       |   |       |-- dependencyClasspathFiles
+|       |   |       |   `-- previous
+|       |   |       |-- discoveredMainClasses
+|       |   |       |   `-- data
+|       |   |       `-- managedSourcePaths
+|       |   |           `-- previous
+|       |   |-- internalDependencyClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- mainClass
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- managedClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- packageBin
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           |-- inputs
+|       |   |           |-- out
+|       |   |           `-- output
+|       |   |-- unmanagedClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   `-- unmanagedJars
+|       |       `-- _global
+|       |           `-- streams
+|       |               `-- export
+|       |-- _global
+|       |   |-- csrConfiguration
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- csrProject
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- dependencyPositions
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- update_cache_2.12
+|       |   |               |-- input_dsp
+|       |   |               `-- output_dsp
+|       |   |-- _global
+|       |   |   |-- checkBuildSources
+|       |   |   |   `-- _global
+|       |   |   |       |-- inputFileStamps
+|       |   |   |       |   `-- previous
+|       |   |   |       `-- streams
+|       |   |   |           `-- out
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- ivyConfiguration
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- ivySbt
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- moduleSettings
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- projectDescriptors
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   |-- scalaCompilerBridgeScope
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- out
+|       |   `-- update
+|       |       `-- _global
+|       |           `-- streams
+|       |               `-- out
+|       |-- runtime
+|       |   |-- dependencyClasspathAsJars
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- exportedProductJars
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- exportedProducts
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- externalDependencyClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- fullClasspathAsJars
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- internalDependencyAsJars
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- managedClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   |-- unmanagedClasspath
+|       |   |   `-- _global
+|       |   |       `-- streams
+|       |   |           `-- export
+|       |   `-- unmanagedJars
+|       |       `-- _global
+|       |           `-- streams
+|       |               `-- export
+|       `-- test
+|           |-- compile
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- out
+|           |-- compileIncremental
+|           |   `-- _global
+|           |       `-- streams
+|           |           |-- export
+|           |           `-- out
+|           |-- compileIncSetup
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- inc_compile_2.12.zip
+|           |-- compileOutputs
+|           |   `-- _global
+|           |       `-- streams
+|           |-- copyResources
+|           |   `-- _global
+|           |       `-- streams
+|           |           |-- copy-resources
+|           |           `-- out
+|           |-- definedTests
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- out
+|           |-- dependencyClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- dependencyClasspathAsJars
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- exportedProductJars
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- exportedProducts
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- externalDependencyClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- fullClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- fullClasspathAsJars
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- _global
+|           |   `-- _global
+|           |       |-- compileBinaryFileInputs
+|           |       |   `-- previous
+|           |       |-- compileOutputs
+|           |       |   `-- previous
+|           |       |-- compileSourceFileInputs
+|           |       |   `-- previous
+|           |       |-- definedTestNames
+|           |       |   `-- data
+|           |       |-- dependencyClasspathFiles
+|           |       |   `-- previous
+|           |       |-- discoveredMainClasses
+|           |       |   `-- data
+|           |       `-- managedSourcePaths
+|           |           `-- previous
+|           |-- internalDependencyAsJars
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- internalDependencyClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- loadedTestFrameworks
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- out
+|           |-- mainClass
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- out
+|           |-- managedClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           |-- packageBin
+|           |   `-- _global
+|           |       `-- streams
+|           |           |-- inputs
+|           |           |-- out
+|           |           `-- output
+|           |-- unmanagedClasspath
+|           |   `-- _global
+|           |       `-- streams
+|           |           `-- export
+|           `-- unmanagedJars
+|               `-- _global
+|                   `-- streams
+|                       `-- export
+`-- test_run_dir
+    |-- hello.Hello418968232
+    |   |-- Hello.anno.json
+    |   |-- Hello.fir
+    |   `-- Hello.lo.fir
+    `-- problems
+        |-- Mux2
+        |   |-- Mux2.anno.json
+        |   |-- Mux2.fir
+        |   `-- Mux2.v
+        `-- Mux4
+            |-- Mux4.anno.json
+            |-- Mux4.fir
+            `-- Mux4.v
+
+522 directories, 630 files

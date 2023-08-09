@@ -1,0 +1,42 @@
+ls
+exit
+test:runMain problems.Launcher
+test:runMain problems.Launcher Mux2
+test:runMain problems.Launcher Mux4
+test:runMain problems.Launcher Accumulator
+test:runMain problems.Launcher Adder
+test:runMain problems.Launcher Accumulator
+clear
+clear;
+test:runMain problems.Launcher Accumulator
+ls
+test:runMain problems.Launcher Adder
+test:runMain problems.Launcher Counter
+test:runMain problems.Launcher DynamicMemorySearch
+test:runMain problems.Launcher LSFR16
+test:runMain problems.Launcher LFSR
+test:runMain problems.Launcher LFSR16
+test:runMain problems.Launcher Max2
+test:runMain problems.Launcher MaxN
+test:runMain problems.Launcher Memo
+test:runMain problems.Launcher Accumulator
+test:runMain problems.Launcher Adder
+test:runMain problems.Launcher DynamicMemorySearchTests
+test:runMain problems.Launcher DynamicMemorySearchTest
+test:runMain problems.Launcher DynamicMemorySearch
+test:runMain problems.Launcher LFSR16
+test:runMain problems.Launcher Max2
+test:runMain problems.Launcher MaxN
+test:runMain problems.Launcher Mul
+scalaversion
+test:runMain problems.Launcher Mul
+test:runMain problems.Launcher Mux4
+test:runMain problems.Launcher RealGCD
+test:runMain problems.Launcher SingleEvenFilter
+test:runMain problems.Launcher VecShiftRegisterTests
+test:runMain problems.Launcher VecShiftRegister
+test:runMain problems.Launcher VecShiftRegisterParam
+test:runMain problems.Launcher VecShiftRegisterSimple
+test:runMain problems.Launcher VendingMachine
+test:runMain problems.Launcher VendingMachineSwitch
+exit

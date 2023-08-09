@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/user/Documents/chisel-tutorial/src/main/scala/problems/VendingMachine.scala:46:16: not found: value s0k[0m
+[0m[[0m[31merror[0m] [0m[0m      state := s0k[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/Documents/chisel-tutorial/src/main/scala/problems/VendingMachine.scala:52:16: not found: value s0k[0m
+[0m[[0m[31merror[0m] [0m[0m      state := s0k[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/Documents/chisel-tutorial/src/main/scala/problems/VendingMachine.scala:54:16: not found: value s0k[0m
+[0m[[0m[31merror[0m] [0m[0m      state := s0k[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/Documents/chisel-tutorial/src/main/scala/problems/VendingMachine.scala:58:24: not found: value s0k[0m
+[0m[[0m[31merror[0m] [0m[0m  }.elsewhen(state === s0k){[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
